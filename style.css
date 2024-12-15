@@ -1,12 +1,28 @@
 /* Custom styles */
+@font-face {
+  font-family: 'Retro Gaming';
+  src: url('C:\Users\maxwe\OneDrive\Documents\.vscode\Retro_Portfolio\font') format('truetype'); /* Adjust path to match your folder structure */
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Apply the font to elements */
 body {
-  font-family: 'Press Start 2P', Retro Gaming; /* Retro font */
+  font-family: 'vgafix', sans-serif;
+  background-color: #000;
+  color: #fff;
+}
+
+body {
+ 
+  
   background: linear-gradient(45deg, #9d9dc6, #9ed3e5, #4682B4, #8A2BE2);
   background-size: 300% 300%;
   animation: gradient-shift 8s ease infinite;
   color: white;
   margin: 0;
   padding: 0;
+  
 }
 
 @keyframes gradient-shift {
@@ -20,7 +36,7 @@ body {
   text-align: center;
   padding: 50px;
   color: #FFFFFF;
-  text-shadow: 2px 2px #000000; /* Adds retro effect for readability */
+  text-shadow: 1px 1px #000000; /* Adds retro effect for readability */
 }
 
 .about, .portfolio, .footer {
