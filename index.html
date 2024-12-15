@@ -1,17 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Retro Portfolio</title>
-    <link rel="stylesheet" href="C:\Users\maxwe\OneDrive\Documents\.vscode\Retro_Portfolio\styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jayden's Portfolio</title>
+  <link rel="stylesheet" href="css/nes.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/nes.css/css/nes.min.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <button class="nes-btn is-primary">Primary Button</button>
-    <div class="nes-container with-title">
-        <p class="title">About Me</p>
-        <p>Hello, I'm a frontend developer!</p>
+  <div class="nes-container with-title is-centered"> 
+         
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1 class="nes-text is-primary">Welcome to Jayden's Portfolio!</h1>
+    <p class="nes-text is-success">A retro '90s style showcase of projects</p>
+    <i class="nes-octocat animate"></i>
+  </section>
+
+<div class="button-container"> 
+  <a href="index.html" class="nes-btn is-primary">Home</a> 
+  <a href="about.html" class="nes-btn is-success">About</a> 
+  <a href="portfolio.html" class="nes-btn is-warning">Portfolio</a> 
+</div>
+
+  <!-- About Section -->
+  <section class="nes-container with-title about">
+    <p>Hello! My name is Jayden, I have a Bachelors degree in Media Arts and Animation and an Associates of Science in Software development! I have been studying software engineering with instructors at TechWise, a bootcamp where we learn full stack engineering and do projects that will helps in the future on our resume.
+      My programming languages are Python, Java, GDScript, HTML, CSS, and JavaScript.
+    </p>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="nes-container with-title portfolio">
+    <div id="gallery" class="gallery"></div>
+      <!-- GitHub Projects will load here -->
     </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="nes-container footer">
+    <p>© 2024 Jayden Maxwell</p>
+    <div class="social-icons">
+      <a href="https://github.com/JaydenPearlM/RetroPortfolio.git" target="_blank"><i class="nes-icon github is-large"></i></a>
+      <a href="https://www.linkedin.com/in/jaydenmaxwell/" target="_blank"><i class="nes-icon linkedin is-large"></i></a>
+    </div>
+  </footer>
+
+  <script src="Home.js"></script>
 </body>
 </html>
-

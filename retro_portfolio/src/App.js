@@ -1,16 +1,10 @@
-import React from 'react';
-import 'nes.css/css/nes.min.css';
+import React from "react";
+import Home from "./Home"; // Adjust path if Home.js is in a subfolder
+import "nes.css/css/nes.min.css"; // NES.css for retro styling
+import "./App.css"; // Optional custom styles
 
 function App() {
-  const n = 10; // Define the variable
-  const result = n + 1; // Assign the expression to a variable
-  console.log(result); // Or use the expression in a function call
-  
-  return (
-    <div>
-      <button className="nes-btn is-primary">Primary Button</button>
-    </div>
-  );
+  return <Home />;
 }
 
 export default App;

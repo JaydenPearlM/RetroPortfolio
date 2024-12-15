@@ -1,0 +1,42 @@
+/* Custom styles */
+body {
+  font-family: 'Press Start 2P', Retro Gaming; /* Retro font */
+  background: linear-gradient(45deg, #9d9dc6, #9ed3e5, #4682B4, #8A2BE2);
+  background-size: 300% 300%;
+  animation: gradient-shift 8s ease infinite;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+@keyframes gradient-shift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Adjust other sections for better contrast */
+.hero {
+  text-align: center;
+  padding: 50px;
+  color: #FFFFFF;
+  text-shadow: 2px 2px #000000; /* Adds retro effect for readability */
+}
+
+.about, .portfolio, .footer {
+  margin: 20px auto;
+  max-width: 800px;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+  color: #E6E6FA; /* Soft lavender for text */
+}
+
+
+.nes-container {
+  margin-top: 20px;
+}
+
+.nes-btn {
+  margin: 10px;
+}
